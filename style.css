@@ -1,0 +1,72 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Full page gradient */
+body {
+    height: 100vh;
+    background-image: linear-gradient(
+        to right,
+        hsl(222, 82%, 50%),
+        hsl(166, 62%, 47%)
+    );
+}
+
+/* Center everything */
+section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+}
+
+/* Buttons container */
+ section > div:first-child {
+    display: flex;
+    gap: 15px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 22px;
+    border-radius: 25px;
+    border: none;
+    color: rgb(20, 3, 3);
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Button colors */
+ #btn1 {
+    background-color: hsl(222, 81%, 15%);
+    color: white;
+} 
+#btn2 {
+    background-color: hsl(61, 92%, 49%);
+} 
+
+/* Heading */
+h4 {
+      color: #ffffff;
+    font-weight: 400;
+    margin-top: 5px; 
+}  
+
+/* Code box */
+.copyCode {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 14px 20px;
+    border-left: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    max-width: 450px;
+} 
